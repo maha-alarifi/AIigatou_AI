@@ -29,7 +29,9 @@ In this project I'll explaine our pipeline from the preprocessing of our dataset
 In the cycleGAN archetucture, there are two GAN models. Each GAN model need to be trained on distinguished dataset inorder to come with something new. Since my team and I want to work with our own dataset, we came up with a way to have differnet representation of our dataset. We took our dataset, applay segmentation to it, then took the segmented dataset, then took the outlines of it. This may look similar to the pix2pix method b`ut we did not paire the images`. Simply we augmented the two datasetes after we took the outlines of the outlies of the segmented data.
 
 ### Segmentation 
-|![](O_I_01.png "title-1")| ![](S_2C_I_01.png "title-2")| ![](S_1C_I_01.png "title-2")|
+| Original | Segmententation 3 | Segmentation 2 |
+| ------------- | ------------- | ------------- |
+|![](O_I_01.png "Original Image")| ![](S_2C_I_01.png "Segmented to 3 colors")| ![](S_1C_I_01.png "Segmented to 2 colors")|
 
 ### Outlines 
 
