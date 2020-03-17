@@ -34,8 +34,16 @@ In the cycleGAN archetucture, there are two GAN models. Each GAN model need to b
 |![](O_I_01.png "Original Image")| ![](S_2C_I_01.png "Segmented to 3 colors")| ![](S_1C_I_01.png "Segmented to 2 colors")|
 
 ### Outlines 
+| 3 Colors Segment | Outline | 2 Colors Segment | Outline |
+| ------------- | ------------- | ------------- |------------- |
+| ![](S_2C_I_01.png "Segmented to 3 colors")|  ![](L_S_2C_I_01.png "Outline from 3 Colors Segment")| ![](S_1C_I_01.png "Segmented to 2 colors")| ![](L_S_1C_I_01.png "Outline from 2 Colors Segment")|
+
 
 ### Augmentation 
+| 3 Colors Segment | Outline | 2 Colors Segment | 
+| ------------- | ------------- | ------------- |
+| ![](S_2C_I_01.png "Segmented to 3 colors")|  ![](L_S_2C_I_01.png "Outline from 3 Colors Segment")| ![](S_1C_I_01.png "Segmented to 2 colors")|
+| ![](S_2C_I_01.png "Segmented to 3 colors")|  ![](L_S_2C_I_01.png "Outline from 3 Colors Segment")| ![](S_1C_I_01.png "Segmented to 2 colors")|
 
 ## Model Training
 
