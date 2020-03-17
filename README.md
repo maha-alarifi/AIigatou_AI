@@ -14,7 +14,7 @@ In this project I'll explaine our pipeline from the preprocessing of our dataset
 - [CycleGAN](#training)
 
 >`Postprocessing`
-- [UpscaleNoise Reduction](#upscale)
+- [Upscale](#upscale)
 - [Noise Reduction](#noise)
 
 
