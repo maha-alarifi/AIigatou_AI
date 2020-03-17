@@ -26,9 +26,10 @@ In this project I'll explaine our pipeline from the preprocessing of our dataset
 - [FAQ](#faq)
 
 ## Datasets Preprocessing
-In the cycleGAN archetucture, there are two GAN models. Each GAN model need to be trained on distinguished dataset inorder to come with something new. Since my team and I want to work with our own dataset, we came up with a way to have differnet representation of our dataset.
+In the cycleGAN archetucture, there are two GAN models. Each GAN model need to be trained on distinguished dataset inorder to come with something new. Since my team and I want to work with our own dataset, we came up with a way to have differnet representation of our dataset. We took our dataset, applay segmentation to it, then took the segmented dataset, then took the outlines of it. This may look similar to the pix2pix method b`ut we did not paire the images`. Simply we augmented the two datasetes after we took the outlines of the outlies of the segmented data.
 
 ### Segmentation 
+
 
 ### Outlines 
 
