@@ -14,7 +14,9 @@ In this project I'll explaine our pipeline from the preprocessing of our dataset
 - [CycleGAN](#training)
 
 >`Postprocessing`
-- [Upscale and Noise Reduction](#upscale_and_noise_reduction)
+- [UpscaleNoise Reduction](#upscale)
+- [Noise Reduction](#noise)
+
 
 >`Website`
 - [Try it Out](#features)
@@ -38,4 +40,5 @@ In the cycleGAN archetucture, there are two GAN models. Each GAN model need to b
 
 ## Postprocessing
 
-### Upscale and Noise Reduction
+### Upscale
+### Noise
