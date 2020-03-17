@@ -40,9 +40,9 @@ In the cycleGAN archetucture, there are two GAN models. Each GAN model need to b
 
 
 ### Augmentation 
-| ![](O_A_01.png)|  ![](O_A_02.png)| ![](O_A_03.png)|
-| ------------- | ------------- | ------------- |
-| ![](L_A_01.png)|  ![](L_A_02.png)| ![](L_A_03.png)|
+| *Dataset A*     | ![](O_A_01.png)|  ![](O_A_02.png)| ![](O_A_03.png)|
+| ------------- | ------------- | ------------- | ------------- |
+| *Dataset B*     | ![](L_A_01.png)|  ![](L_A_02.png)| ![](L_A_03.png)|
 
 ## Model Training
 
