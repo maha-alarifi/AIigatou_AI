@@ -28,4 +28,14 @@ In the cycleGAN archetucture, there are two GAN models. Each GAN model need to b
 
 ### Segmentation 
 
+### Outlines 
 
+### Augmentation 
+
+## Model Training
+
+### Training
+
+## Postprocessing
+
+### Upscale and Noise Reduction
