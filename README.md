@@ -55,9 +55,9 @@ Finally the last step in preprocessing, we used `Augmentor` in order increase th
 | Searching | For the Training | Sweet Spot |
 | ------------- | ------------- | ------------- |
 | 100 EPOCHS | 200 EPOCHS | 300 EPOCHS  |
-| ![](L_A_03.png) | ![](L_A_03.png) | ![](L_A_03.png)  |
+| ![](100_EPOCHS.png) | ![](200_EPOCHS.png) | ![](300_EPOCHS.png)  |
 | 500 EPOCHS  | 600 EPOCHS  | 700 EPOCHS  |
-| ![](L_A_03.png) | ![](L_A_03.png)  | ![](L_A_03.png)  |
+| ![](500_EPOCHS.png) | ![](600_EPOCHS.png)  | ![](700_EPOCHS.png)  |
 
 
 ## Postprocessing
