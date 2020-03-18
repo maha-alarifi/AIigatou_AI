@@ -32,7 +32,7 @@ In the cycleGAN archetucture, there are two GAN models. Each GAN model need to b
 In order to get our segmented dataset, we used unsupervised algorithm `K-mean` to cluster the colors in an image.  For expermintal purposes we tried to to cluster 2 colors in an image and 3 colors. Then we notice that some of the images looks abslotly different with the different clusters number. So for some cases we took the both clustering results.
 | Original | Segmententation 3 | Segmentation 2 |
 | ------------- | ------------- | ------------- |
-|![](O_I_01.png "Original Image")| ![](S_2C_I_01.png "Segmented to 3 colors")| ![](S_1C_I_01.png "Segmented to 2 colors")|
+|![](segmentation/1.png "Original Image")| ![](segmentation/2.png "Segmented to 3 colors")| ![](segmentation/3.png "Segmented to 2 colors")|
 
 ### Outlines 
 We tried to use the Segmented dataset as the Dataset B with the Original dataset as Dataset A, but we were not pleased with the outcomes. Therefore, we thought about a way to increase the varaity between our A/B datasets, and this is how we get to extract the outlines of our drawings as the second dataset. `Please notice that this is NOT paired images approach`.
