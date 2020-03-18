@@ -18,7 +18,7 @@ In this project I'll explaine our pipeline from the preprocessing of our dataset
 - [Noise Reduction](#noise)
 
 
->`Website`
+>`WebApp`
 - [Try it Out](#features)
 
 >`Info`
