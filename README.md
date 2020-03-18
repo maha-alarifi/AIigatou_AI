@@ -39,7 +39,7 @@ We tried to use the Segmented dataset as the Dataset B with the Original dataset
 We extracted the outlines of our segmented drawings.
 | 3 Colors Segment | Outline | 2 Colors Segment | Outline |
 | ------------- | ------------- | ------------- |------------- |
-| ![](S_2C_I_01.png "Segmented to 3 colors")|  ![](L_S_2C_I_01.png "Outline from 3 Colors Segment")| ![](S_1C_I_01.png "Segmented to 2 colors")| ![](L_S_1C_I_01.png "Outline from 2 Colors Segment")|
+| ![](Images/outlines/1.png "Segmented to 3 colors")|  ![](Images/outlines/2.png "Outline from 3 Colors Segment")| ![](Images/outlines/3.png "Segmented to 2 colors")| ![](Images/outlines/4.png "Outline from 2 Colors Segment")|
 
 
 ### Augmentation 
