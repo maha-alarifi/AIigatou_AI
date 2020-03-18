@@ -43,7 +43,7 @@ We extracted the outlines of our segmented drawings.
 
 
 ### Augmentation 
-Finally the last step in preprocessing, we used augmentor in order increase the number of examples in out dataset.  We have initially 121 original drawings from our artist, we segmented these images and then took the outlines to have a second dataset. Then we augmented these two datasets differently to gaine 500 examples each to trian our cycleGAN. We took our time in order to get the optimal augmentatios pipeline for our dataset. We experment with earasing, flip_top_down, chainging colors, random_distortion, gaussian_distortion, zooming, and rotate for more than 15˚. But as cool as these augmentation options are, they did not work well with our dataset. So our pipeline consist of (random flip, random 90˚ rotate, random 15˚ rotate) for 70% of each dataset and resize all of them to (256px * 256px). These are examples of our final two datasets.
+Finally the last step in preprocessing, we used `Augmentor` in order increase the number of examples in out dataset.  We have initially 121 original drawings from our artist, we segmented these images and then took the outlines to have a second dataset. Then we augmented these two datasets differently to gaine 500 examples each to trian our cycleGAN. We took our time in order to get the optimal augmentatios pipeline for our dataset. We experment with earasing, flip_top_down, chainging colors, random_distortion, gaussian_distortion, zooming, and rotate for more than 15˚. But as cool as these augmentation options are, they did not work well with our dataset. So our pipeline consist of (random flip, random 90˚ rotate, random 15˚ rotate) for 70% of each dataset and resize all of them to (256px * 256px). These are examples of our final two datasets.
 | Datasets | The | Joy Of | Augmentation |
 | ------------- | ------------- | ------------- | ------------- |
 | *Dataset A*     | ![](O_A_01.png)|  ![](O_A_02.png)| ![](O_A_03.png)|
@@ -54,6 +54,12 @@ Finally the last step in preprocessing, we used augmentor in order increase the 
 ### Training
 
 ## Postprocessing
-
+After we trained our model, and was pleased and inspired by the generated images, now we need to fix the matter of the images quality to be more appealing to the eye. We used `Waifo` tool to reach our goal.
+| Generated | Upscaled | Noise Reduction|
+| ------------- | ------------- | ------------- |
+| ![](PP_1.png "Can tou see the Bambi?")|  ![](PP_2.png "Can tou see the Bambi?")| ![](PP_3.png "Can tou see the Bambi?")|
 ### Upscale
+We applied this method twice to reach the output of 1024.
 ### Noise
+We aplllied the noise reduction with the noise level 3 also twice.
+
