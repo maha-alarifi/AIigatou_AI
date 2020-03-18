@@ -56,9 +56,9 @@ We choose to train CycleGAN model becuse of several reasons. One of the reasons 
 | Searching | For the Training | Sweet Spot |
 | ------------- | ------------- | ------------- |
 | 100 EPOCHS | 200 EPOCHS | 300 EPOCHS  |
-| ![](100_EPOCHS.png) | ![](200_EPOCHS.png) | ![](300_EPOCHS.png)  |
+| ![](Images/training/100_EPOCHS.png) | ![](Images/training/200_EPOCHS.png) | ![](Images/training/300_EPOCHS.png)  |
 | 500 EPOCHS  | 600 EPOCHS  | 700 EPOCHS  |
-| ![](500_EPOCHS.png) | ![](600_EPOCHS.png)  | ![](700_EPOCHS.png)  |
+| ![](Images/training/500_EPOCHS.png) | ![](Images/training/600_EPOCHS.png)  | ![](Images/training/700_EPOCHS.png)  |
 
 
 ## Postprocessing
