@@ -50,6 +50,7 @@ Finally the last step in preprocessing, we used `Augmentor` in order increase th
 | *Dataset B*     | ![](L_A_01.png)|  ![](L_A_02.png)| ![](L_A_03.png)|
 
 ## Model Training
+We choose to train CycleGAN model becuse of several reasons. One of the reasons is that we got inspired by the art of [Helena Sarin](https://twitter.com/glagolista) and her method. She used her own dataset to traine a cycleGAN model to make a beatiful art pieces of flowers. We were initially aiming to traine a GAN model but the intresing archetucture of CycleGAN make it need for less data to train on which is perfect in our case since our dataset is originals of our artsit. 
 
 ### Training
 | Searching | For the Training | Sweet Spot |
