@@ -46,7 +46,7 @@ We extracted the outlines of our segmented drawings.
 Finally the last step in preprocessing, we used `Augmentor` in order increase the number of examples in out dataset.  We have initially 121 original drawings from our artist, we segmented these images and then took the outlines to have a second dataset. Then we augmented these two datasets differently to gaine 500 examples each to trian our cycleGAN. We took our time in order to get the optimal augmentatios pipeline for our dataset. We experment with earasing, flip_top_down, chainging colors, random_distortion, gaussian_distortion, zooming, and rotate for more than 15˚. But as cool as these augmentation options are, they did not work well with our dataset. So our pipeline consist of (random flip, random 90˚ rotate, random 15˚ rotate) for 70% of each dataset and resize all of them to (256px * 256px). These are examples of our final two datasets.
 | Datasets | The | Joy Of | Augmentation |
 | ------------- | ------------- | ------------- | ------------- |
-| *Dataset A*     | ![](Images/augmentation/1.png)|  ![](Images/augmentation/2.png)| ![](Images/augmentation/3.png)|
+| *Dataset A*     | ![](Images/augmentation/2.png)|  ![](Images/augmentation/1.png)| ![](Images/augmentation/3.png)|
 | *Dataset B*     | ![](Images/augmentation/4.png)|  ![](Images/augmentation/5.png)| ![](Images/augmentation/6.png)|
 
 ## Model Training
