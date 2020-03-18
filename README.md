@@ -70,9 +70,9 @@ We applied this method twice to reach the output of 1024.
 | original | scale | scale |
 | ------------- | ------------- | ------------- |
 | ![](Images/postprocessing/0.png) | ![](Images/postprocessing/s1.png)|  ![](Images/postprocessing/s2.png)|
+
 ### Noise
 We aplllied the noise reduction with the noise level 3 also twice.
 | original | noise reduced | noise reduced|
 | ------------- | ------------- | ------------- |
 | ![](Images/postprocessing/0.png) | ![](Images/postprocessing/n1.png)|  ![](Images/postprocessing/n2.png)|
-
