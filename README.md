@@ -44,6 +44,7 @@ We extracted the outlines of our segmented drawings.
 
 ### Augmentation 
 Finally the last step in preprocessing, we used augmentor in order increase the number of examples in out dataset.  We have initially 121 original drawings from our artist, we segmented these images and then took the outlines to have a second dataset. Then we augmented these two datasets differently to gaine 500 examples each to trian our cycleGAN. We applied (random flip, random 90˚ rotate, random 15˚ rotate) for 70% of each dataset and resize all of them to (256px * 256px). and these are our final two datasets.
+| Datasets | The | Joy Of | Augmentation |
 | ------------- | ------------- | ------------- | ------------- |
 | *Dataset A*     | ![](O_A_01.png)|  ![](O_A_02.png)| ![](O_A_03.png)|
 | *Dataset B*     | ![](L_A_01.png)|  ![](L_A_02.png)| ![](L_A_03.png)|
