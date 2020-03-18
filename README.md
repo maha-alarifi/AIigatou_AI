@@ -64,11 +64,15 @@ We choose to train CycleGAN model becuse of several reasons. One of the reasons 
 
 ## Postprocessing
 After we trained our model, and was pleased and inspired by the generated images, now we need to fix the matter of the images quality to be more appealing to the eye. We used `Waifo` tool to reach our goal.
-| Generated | Upscaled | Noise Reduction|
-| ------------- | ------------- | ------------- |
-| ![](PP_1.png "Can tou see the Bambi?")|  ![](PP_2.png "Can tou see the Bambi?")| ![](PP_3.png "Can tou see the Bambi?")|
+
 ### Upscale
 We applied this method twice to reach the output of 1024.
+| original | scale | scale |
+| ------------- | ------------- | ------------- |
+| ![](Images/postprocessing/0.png) | ![](Images/postprocessing/s1.png)|  ![](Images/postprocessing/s2.png)|
 ### Noise
 We aplllied the noise reduction with the noise level 3 also twice.
+| original | noise reduced | noise reduced|
+| ------------- | ------------- | ------------- |
+| ![](Images/postprocessing/0.png) | ![](Images/postprocessing/n1.png)|  ![](Images/postprocessing/n2.png)|
 
