@@ -52,6 +52,13 @@ Finally the last step in preprocessing, we used `Augmentor` in order increase th
 ## Model Training
 
 ### Training
+| Searching | For the Training | Sweet Spot |
+| ------------- | ------------- | ------------- |
+| 100 EPOCHS | 200 EPOCHS | 300 EPOCHS  |
+| ![](L_A_03.png) | ![](L_A_03.png) | ![](L_A_03.png)  |
+| 500 EPOCHS  | 600 EPOCHS  | 700 EPOCHS  |
+| ![](L_A_03.png) | ![](L_A_03.png)  | ![](L_A_03.png)  |
+
 
 ## Postprocessing
 After we trained our model, and was pleased and inspired by the generated images, now we need to fix the matter of the images quality to be more appealing to the eye. We used `Waifo` tool to reach our goal.
