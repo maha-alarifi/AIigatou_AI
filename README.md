@@ -46,8 +46,8 @@ We extracted the outlines of our segmented drawings.
 Finally the last step in preprocessing, we used `Augmentor` in order increase the number of examples in out dataset.  We have initially 121 original drawings from our artist, we segmented these images and then took the outlines to have a second dataset. Then we augmented these two datasets differently to gaine 500 examples each to trian our cycleGAN. We took our time in order to get the optimal augmentatios pipeline for our dataset. We experment with earasing, flip_top_down, chainging colors, random_distortion, gaussian_distortion, zooming, and rotate for more than 15˚. But as cool as these augmentation options are, they did not work well with our dataset. So our pipeline consist of (random flip, random 90˚ rotate, random 15˚ rotate) for 70% of each dataset and resize all of them to (256px * 256px). These are examples of our final two datasets.
 | Datasets | The | Joy Of | Augmentation |
 | ------------- | ------------- | ------------- | ------------- |
-| *Dataset A*     | ![](O_A_01.png)|  ![](O_A_02.png)| ![](O_A_03.png)|
-| *Dataset B*     | ![](L_A_01.png)|  ![](L_A_02.png)| ![](L_A_03.png)|
+| *Dataset A*     | ![](Images/augmentation/1.png)|  ![](Images/augmentation/2.png)| ![](Images/augmentation/3.png)|
+| *Dataset B*     | ![](Images/augmentation/4.png)|  ![](Images/augmentation/5.png)| ![](Images/augmentation/6.png)|
 
 ## Model Training
 We choose to train CycleGAN model becuse of several reasons. One of the reasons is that we got inspired by the art of [Helena Sarin](https://twitter.com/glagolista) and her method. She used her own dataset to traine a cycleGAN model to make a beatiful art pieces of flowers. We were initially aiming to traine a GAN model but the intresing archetucture of CycleGAN make it need for less data to train on which is perfect in our case since our dataset is originals of our artsit. 
