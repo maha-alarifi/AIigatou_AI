@@ -97,3 +97,4 @@ Run the program in the exact same order presented. Remember to select the GPUs i
 
 [Augmentor](https://github.com/mdbloice/Augmentor)
 [Cyclegan](https://www.tensorflow.org/tutorials/generative/cyclegan)
+[Waifu2x](https://github.com/nagadomi/waifu2x)
