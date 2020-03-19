@@ -1,5 +1,6 @@
 # AIigatou_AI
 > Team #15 in #AI_Artathon 2020
+
 In this project I'll explaine our pipeline from the preprocessing of our datasets, training CycleGAN model, till we finaly upscaled the output and discared the noise. **checkout our original [dataset](https://drive.google.com/drive/folders/1KKrFin2dVa_hObgy3ihSyd_K7xtYSWsh?usp=sharing)**
 
 
@@ -55,7 +56,7 @@ Finally the last step in preprocessing, we used `Augmentor` in order increase th
 We choose to train CycleGAN model becuse of several reasons. One of the reasons is that we got inspired by the art of [Helena Sarin](https://twitter.com/glagolista) and her method. She used her own dataset to traine a cycleGAN model to make a beatiful art pieces of flowers. We were initially aiming to traine a GAN model but the intresing archetucture of CycleGAN make it need for less data to train on which is perfect in our case since our dataset is originals of our artsit. 
 
 ### Training
-After running the model for 50 EPOCHS, we got excited to reach the best results possible. So we tried to run it again and again untill we reached the point where the images dose not make sense anymore. each 25 EPOCHS takes almost 1 hour. But don't worry, we were saving our checkpoints.
+After training our CycleGAN for 50 EPOCHS, we got excited to reach the best results possible. So we tried to run it again and again untill we reached the point where the images dose not make sense anymore. each 25 EPOCHS takes almost 1 hour. But don't worry, we were saving our checkpoints. The total training time with good results was around 25 hour.
 | Searching | For the Training | Sweet Spot |
 | ------------- | ------------- | ------------- |
 | 100 EPOCHS | 200 EPOCHS | 300 EPOCHS  |
@@ -69,13 +70,13 @@ After we trained our model, and was pleased and inspired by the generated images
 
 ### Upscale
 We applied this method twice to reach the desired output scale.
-| generated 256x256 | scale to 512x512 | scale to 1024x1024|
+| Generated 256x256 | Scale to 512x512 | Scale to 1024x1024|
 | ------------- | ------------- | ------------- |
 | ![](Images/postprocessing/0.png) | ![](Images/postprocessing/s1.png)|  ![](Images/postprocessing/s2.png)|
 
 ### Noise
 We aplllied the noise reduction with the noise level 3 also twice.
-| generated | reduce noise | reduce noise |
+| Generated | Reduce Noise | Reduce Noise |
 | ------------- | ------------- | ------------- |
 | ![](Images/postprocessing/0.png) | ![](Images/postprocessing/n1.png)|  ![](Images/postprocessing/n2.png)|
 
