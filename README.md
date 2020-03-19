@@ -23,8 +23,10 @@ In this project I'll explaine our pipeline from the preprocessing of our dataset
 - [Try it Out](#features)
 
 >`Info`
-- [Team](#team)
+- [Appreciation](#appreciation)
 - [FAQ](#faq)
+- [Team](#team)
+
 
 ## Datasets Preprocessing
 In the cycleGAN archetucture, there are two GAN models. Each GAN model need to be trained on distinguished dataset inorder to come with something new. Since my team and I want to work with our own dataset, we came up with a way to have differnet representation of our dataset. We took our dataset, applay segmentation to it, then took the segmented dataset, then took the outlines of it. This may look similar to the pix2pix method `but we did not paire the images`. Simply we augmented the two datasetes after we took the outlines of the outlies of the segmented data.
@@ -76,3 +78,16 @@ We aplllied the noise reduction with the noise level 3 also twice.
 | original | noise reduced | noise reduced|
 | ------------- | ------------- | ------------- |
 | ![](Images/postprocessing/0.png) | ![](Images/postprocessing/n1.png)|  ![](Images/postprocessing/n2.png)|
+
+## Info 
+### Appreciation
+Thank you for giving us this chanse to learn valuable skilles. Thank you `Backyard` to provide us with top top people in the field of Creative AI, and help us whenever we needed help. Thank you `Gene Kogen` for your fun intro to creative AL. Thank you `Prof.Philippe Pasquier` for teaching us wide range of AI algorithms. Thank you `Ellen Nickles` for intruduce us to RunwayML. Special big thanks to `Meredith Thomas, Sofia Crespo, and Feileacan` for getting our hands dirty with the algorithms. Thank you `Albert Barque-Duran` for teaching us the importance of conceps and representing it.
+
+### FAQ
+Run the program in the exact same order presented. 
+
+### Team
+| The Designer | The Artist | The Geek |
+| ------------- | ------------- | ------------- |
+| ![](Images/team/Afaaf.png) | ![](Images/team/Ali.png)|  ![](Images/team/Maha.png)|
+| Afaaf | Ali | Maha |
