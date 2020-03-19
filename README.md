@@ -1,8 +1,7 @@
 # AIigatou_AI
 > Team #15 in #AI_Artathon 2020
 
-In this project I'll explaine our pipeline from the preprocessing of our datasets, training CycleGAN model, till we finaly upscaled the output and discared the noise. **checkout our original [dataset](https://drive.google.com/drive/folders/1KKrFin2dVa_hObgy3ihSyd_K7xtYSWsh?usp=sharing)**
-
+In this project I'll explaine our pipeline from the preprocessing of our datasets, training CycleGAN model, till we finaly upscaled the output and discared the noise. **checkout our original [dataset](https://drive.google.com/drive/folders/1KKrFin2dVa_hObgy3ihSyd_K7xtYSWsh?usp=sharing)**. Our art style is made up by small artistical shapes. So this model will generate these small artistical shapes that the artist can use to make his final art piece.
 
 ## Table of Contents
 >`Preprocessing`
