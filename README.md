@@ -1,7 +1,7 @@
 # AIigatou_AI
 > Team #15 in #AI_Artathon 2020
 
-Our art style is made up by small artistical shapes. So in this project we traind a model that generate these small artistical shapes that the artist can use to make his final art piece. I'll walk you through our pipeline from the preprocessing of our datasets, training CycleGAN model, till we finaly upscaled the output and discared the noise. **checkout our [original dataset](https://drive.google.com/drive/folders/1KKrFin2dVa_hObgy3ihSyd_K7xtYSWsh?usp=sharing)**.
+Our art style is made up by small artistical shapes. So in this project we traind a model that generate these small artistical shapes that the artist can use to make his final art piece. I'll walk you through our pipeline from the preprocessing of our datasets, training CycleGAN model, till we finaly upscaled the output and discared the noise. **checkout our [dataset](https://drive.google.com/drive/folders/1KKrFin2dVa_hObgy3ihSyd_K7xtYSWsh?usp=sharing)** which is the original degital paintings of Ali our team's artist.
 
 ## Table of Contents
 >`Preprocessing`
