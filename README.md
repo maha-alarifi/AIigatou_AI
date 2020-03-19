@@ -95,5 +95,5 @@ Run the program in the exact same order presented. Remember to select the GPUs i
 
 ## Credits
 
-[](https://github.com/mdbloice/Augmentor)
-[](https://www.tensorflow.org/tutorials/generative/cyclegan)
+[Augmentor](https://github.com/mdbloice/Augmentor)
+[Cyclegan](https://www.tensorflow.org/tutorials/generative/cyclegan)
