@@ -81,7 +81,7 @@ We aplllied the noise reduction with the noise level 3 also twice.
 
 ## Info 
 ### Appreciation
-Thank you for giving us this chanse to learn valuable skilles. Thank you `Backyard` to provide us with top top people in the field of Creative AI, and help us whenever we needed help. Thank you `Gene Kogen` for your fun intro to creative AL. Thank you `Prof.Philippe Pasquier` for teaching us wide range of AI algorithms. Thank you `Ellen Nickles` for intruduce us to RunwayML. Special big thanks to `Meredith Thomas, Sofia Crespo, and Feileacan McCormick` for getting our hands dirty with the algorithms. Thank you `Albert Barque-Duran` for teaching us the importance of conceps and representing it.
+Thank you for giving us this chanse to learn valuable skilles. Thank you `Backyard` to provide us with top top people in the field of Creative AI, and help us whenever we needed help. Thank you `Gene Kogen` for your fun intro to creative AL. Thank you `Prof.Philippe Pasquier` for teaching us wide range of AI algorithms. Thank you `Ellen Nickles` for intruduce us to RunwayML. Special big thanks to `Meredith Thomas, Sofia Crespo, and Feileacan McCormick` for getting our hands dirty with the algorithms, tools and scripts. Thank you `Albert Barque-Duran` for teaching us the importance of conceps and representing it.
 
 ### FAQ
 Run the program in the exact same order presented. 
