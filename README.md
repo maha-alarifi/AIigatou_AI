@@ -1,11 +1,9 @@
 # AIigatou_AI
 > Team #15 in #AI_Artathon 2020
-
 In this project I'll explaine our pipeline from the preprocessing of our datasets, training CycleGAN model, till we finaly upscaled the output and discared the noise. **checkout our original [dataset](https://drive.google.com/drive/folders/1KKrFin2dVa_hObgy3ihSyd_K7xtYSWsh?usp=sharing)**
 
 
 ## Table of Contents
-
 >`Preprocessing`
 - [Dataset Segmentation](#segmentation)
 - [Dataset Outlines](#outlines)
@@ -57,7 +55,7 @@ Finally the last step in preprocessing, we used `Augmentor` in order increase th
 We choose to train CycleGAN model becuse of several reasons. One of the reasons is that we got inspired by the art of [Helena Sarin](https://twitter.com/glagolista) and her method. She used her own dataset to traine a cycleGAN model to make a beatiful art pieces of flowers. We were initially aiming to traine a GAN model but the intresing archetucture of CycleGAN make it need for less data to train on which is perfect in our case since our dataset is originals of our artsit. 
 
 ### Training
-After running the model for 50 EPOCHS, we got excited to reach the best results possible. So we tried to run it again and again untill we reached the point where the images dose not make sense anymore. each 25 EPOCHS takes almost 1 hour.
+After running the model for 50 EPOCHS, we got excited to reach the best results possible. So we tried to run it again and again untill we reached the point where the images dose not make sense anymore. each 25 EPOCHS takes almost 1 hour. But don't worry, we were saving our checkpoints.
 | Searching | For the Training | Sweet Spot |
 | ------------- | ------------- | ------------- |
 | 100 EPOCHS | 200 EPOCHS | 300 EPOCHS  |
@@ -70,14 +68,14 @@ After running the model for 50 EPOCHS, we got excited to reach the best results 
 After we trained our model, and was pleased and inspired by the generated images, now we need to fix the matter of the images quality to be more appealing to the eye. We used `Waifo` tool to reach our goal.
 
 ### Upscale
-We applied this method twice to reach the output of 1024.
-| original | scale | scale |
+We applied this method twice to reach the desired output scale.
+| generated 256x256 | scale to 512x512 | scale to 1024x1024|
 | ------------- | ------------- | ------------- |
 | ![](Images/postprocessing/0.png) | ![](Images/postprocessing/s1.png)|  ![](Images/postprocessing/s2.png)|
 
 ### Noise
 We aplllied the noise reduction with the noise level 3 also twice.
-| original | noise reduced | noise reduced|
+| generated | reduce noise | reduce noise |
 | ------------- | ------------- | ------------- |
 | ![](Images/postprocessing/0.png) | ![](Images/postprocessing/n1.png)|  ![](Images/postprocessing/n2.png)|
 
@@ -95,7 +93,6 @@ Run the program in the exact same order presented. Remember to select the GPUs i
 | Afaaf | Ali | Maha |
 
 ## Credits
-
 [Augmentor](https://github.com/mdbloice/Augmentor)
 [Cyclegan](https://www.tensorflow.org/tutorials/generative/cyclegan)
 [Waifu2x](https://github.com/nagadomi/waifu2x)
