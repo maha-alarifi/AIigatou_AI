@@ -26,6 +26,7 @@ In this project I'll explaine our pipeline from the preprocessing of our dataset
 - [Appreciation](#appreciation)
 - [FAQ](#faq)
 - [Team](#team)
+- [Credits](#credits)
 
 
 ## Datasets Preprocessing
@@ -91,3 +92,8 @@ Run the program in the exact same order presented. Remember to select the GPUs i
 | ------------- | ------------- | ------------- |
 | ![](Images/team/Afaaf.png) | ![](Images/team/Ali.png)|  ![](Images/team/Maha.png)|
 | Afaaf | Ali | Maha |
+
+## Credits
+
+[](https://github.com/mdbloice/Augmentor)
+[](https://www.tensorflow.org/tutorials/generative/cyclegan)
